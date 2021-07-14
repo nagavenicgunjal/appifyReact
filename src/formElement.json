@@ -1,0 +1,55 @@
+{
+    "title": "Create Account",
+    "form": {
+      "fields": [
+        {
+          "label": "Name",
+          "id": "name",
+          "type": "textbox",
+          "sequence": 1,
+          "placeholder": "Enter name",
+          "value": ""
+        },
+        {
+          "label": "DOB",
+          "id": "dob",
+          "type": "date",
+          "sequence": 2,
+          "placeholder": "DOB",
+          "value": "",
+          "min": "2018-01-01",
+          "max": "2019-12-31"
+        },
+        {
+          "label": "Address",
+          "id": "address",
+          "type": "textarea",
+          "sequence": 3,
+          "placeholder": "Enter Address",
+          "value": ""
+        },
+        {
+            "label": "Are you student?",
+            "id": "student",
+            "type": "checkbox",
+            "sequence": 4,
+            "value": "checked"
+        },
+        {
+            "_id": "married",
+            "label": "Marital Status",
+            "value": "Single",
+            "options": [
+                {
+                    "option_label": "Single"
+                },
+                {
+                    "option_label": "Married"
+                }
+            ],
+            "type": "select"
+        }
+      ]
+    }
+  }
+  
